@@ -16,9 +16,7 @@ header > nav > ul {
   height: 80px;
   z-index: 9;
 }
-.hiddenHeader {
-  display: none;
-}
+
 header > nav > ul {
   list-style: none;
   display: none;

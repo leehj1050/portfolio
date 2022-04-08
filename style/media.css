@@ -1,6 +1,7 @@
 @media (max-width: 1850px) {
-  header > nav {
-    display: none;
+  header > nav > ul {
+    padding: 0.8em;
+    justify-content: space-around;
   }
   .scroll_top_icon > a {
     display: none;
@@ -14,10 +15,13 @@
     flex-direction: column;
     border: none;
   }
-  .cont_2_wrap,
-  .cont_3_wrap {
+  .cont_2_wrap {
     border: none;
     margin-top: 15em;
+  }
+  .cont_3_wrap {
+    border: none;
+    margin-top: 23em;
   }
   .cont_1 > .cont_1_wrap > .cont_1_text {
     font-size: 0.8em;
