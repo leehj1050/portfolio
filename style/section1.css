@@ -1,19 +1,22 @@
 .cont_1 {
   height: 100vh;
   font-family: "Noto Serif KR", serif;
-  padding: 15px 350px;
+  padding: 1em 20em;
   box-sizing: border-box;
 }
 .cont_1_wrap {
   border: 1px solid lightgray;
-  height: 90%;
+  height: auto;
   padding: 2.5em;
+  display: flex;
 }
 
-.cont_1 > .cont_1_wrap > img {
+.cont_1 > .cont_1_wrap > .cont_1_text {
+  padding: 1em 1em;
+}
+.cont_1 > .cont_1_wrap > span > img {
   width: 15em;
+  height: 100%;
   opacity: 0.8;
-  float: left;
   border-radius: 10px;
-  margin-right: 2em;
 }

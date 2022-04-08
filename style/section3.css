@@ -32,13 +32,13 @@
   position: relative;
 }
 .container .Box:hover img {
-  animation: hideBox 1s forwards;
+  animation: hideBox 0.5s forwards;
 }
 .container .Box:hover .project_fontBox {
-  animation: showBox 1.3s forwards;
+  animation: showBox 0.5s forwards;
 }
 .container .Box:hover .project_moveSite {
-  animation: moveSite 1s forwards;
+  animation: moveSite 0.7s forwards;
 }
 
 .container .Box img {
@@ -70,7 +70,6 @@
   border: 1px solid gray;
   font-weight: bold;
   position: relative;
-  bottom: -150px;
 }
 .project_moveSite:hover {
   background-color: rgb(211, 211, 211, 0.5);

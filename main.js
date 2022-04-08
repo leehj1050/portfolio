@@ -14,10 +14,10 @@ console.log(scrollY);
 //메뉴버튼 클릭시 페이지 이동
 click_Menu = () => {
   view_my_work.addEventListener("click", () => {
-    window.scrollTo(0, 970);
+    window.scrollTo(0, 830);
   });
   menu_AboutMe.addEventListener("click", () => {
-    window.scrollTo(0, 970);
+    window.scrollTo(0, 830);
   });
   menu_Skills.addEventListener("click", () => {
     window.scrollTo(0, 1940);
