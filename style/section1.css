@@ -1,0 +1,19 @@
+.cont_1 {
+  height: 100vh;
+  font-family: "Noto Serif KR", serif;
+  padding: 15px 350px;
+  box-sizing: border-box;
+}
+.cont_1_wrap {
+  border: 1px solid lightgray;
+  height: 90%;
+  padding: 2.5em;
+}
+
+.cont_1 > .cont_1_wrap > img {
+  width: 15em;
+  opacity: 0.8;
+  float: left;
+  border-radius: 10px;
+  margin-right: 2em;
+}

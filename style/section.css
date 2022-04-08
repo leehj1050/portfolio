@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.cont_main {
+  height: 100vh;
+}
+.cont_main_wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont_main_text {
+  width: 200px;
+  font-size: 1.5em;
+  border: 1px solid gray;
+  padding: 10px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.cont_main_text:hover {
+  color: #eee;
+  background-color: rgb(87, 87, 87, 0.8);
+  transition: 1.1s;
+}
+.cont_main_text:hover a {
+  color: #eee;
+}

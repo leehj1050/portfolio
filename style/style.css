@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+
+.wrap {
+  width: auto;
+  height: auto;
+}
+header,
+header > nav,
+header > nav > ul {
+  width: 100%;
+  height: 80px;
+  z-index: 9;
+}
+header > nav > ul {
+  list-style: none;
+  display: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 15px 350px;
+  box-sizing: border-box;
+  position: fixed;
+}
+header > nav > ul > li {
+  padding: 15px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 900;
+}
+header > nav > ul > li:hover {
+  color: #fff;
+}
+
+.scroll_top_icon {
+  font-size: 2.5em;
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+  position: fixed;
+  display: none;
+}

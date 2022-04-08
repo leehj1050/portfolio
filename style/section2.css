@@ -1,0 +1,100 @@
+.cont_2 {
+  height: 100vh;
+  padding: 15px 350px;
+  box-sizing: border-box;
+}
+.cont_2_wrap {
+  border: 1px solid lightgray;
+  height: 90%;
+  position: relative;
+}
+.skills_title {
+  position: relative;
+  opacity: 0;
+}
+.skills_title > h1 {
+  font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills_title > h1:after {
+  content: "";
+  display: block;
+  width: 100px;
+  border-bottom: 2px solid black;
+}
+.skillsArea {
+  display: flex;
+  flex-direction: column;
+}
+.skillText {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+  list-style: none;
+  margin: 0;
+}
+.skillText > .contents {
+  width: 30%;
+  text-align: center;
+  overflow: hidden;
+}
+.skillText > .contents > .text {
+  font-size: 1.5em;
+  font-weight: 900;
+  position: relative;
+  left: -2000px;
+}
+.skillText > .contents > .icons {
+  font-size: 4em;
+  position: relative;
+  right: -2000px;
+}
+/*그래프*/
+.graphArea {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.graph /*ul*/ {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.graph > div {
+  width: 60px;
+  height: 480px;
+  position: relative;
+}
+.graph > div > li {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+.graph > div:first-child > li {
+  background-color: orangered;
+  height: 88%;
+}
+.graph > div:nth-child(2) > li {
+  background-color: blue;
+  height: 85%;
+}
+.graph > div:nth-child(3) > li {
+  background-color: orange;
+  height: 80%;
+}
+.graph > div:nth-child(4) > li {
+  background-color: skyblue;
+  height: 70%;
+}

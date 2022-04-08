@@ -1,0 +1,11 @@
+@media (max-width: 1860px) {
+  .cont_1_wrap > img {
+    width: 5em;
+  }
+}
+
+@media (max-width: 960px) {
+  header {
+    display: none;
+  }
+}
