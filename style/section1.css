@@ -4,6 +4,10 @@
   padding: 1em 20em;
   box-sizing: border-box;
 }
+.cont_1 .move__text {
+  font-size: 8em;
+}
+
 .cont_1_wrap {
   border: 1px solid lightgray;
   height: auto;
