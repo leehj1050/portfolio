@@ -71,3 +71,14 @@ scrollSkill = () => {
   });
 };
 scrollSkill();
+
+//mobile click
+click__Event = () => {
+  let item = document.querySelectorAll(".container > .Box");
+  for (let i = 0; i <= item.length; i++) {
+    item[i].addEventListener("click", () => {
+      item[i].style.animation = "showBox 0.5s forwards";
+    });
+  }
+};
+click__Event();
