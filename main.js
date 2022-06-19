@@ -67,6 +67,12 @@ scrollSkill = () => {
       graph[1].style.animation = "skillGraph2 2.5s";
       graph[2].style.animation = "skillGraph3 2.5s";
       graph[3].style.animation = "skillGraph4 2.5s";
+    } else {
+      let graph = document.querySelectorAll(".graph div li");
+      graph[0].style.animation = "none";
+      graph[1].style.animation = "none";
+      graph[2].style.animation = "none";
+      graph[3].style.animation = "none";
     }
   });
 };

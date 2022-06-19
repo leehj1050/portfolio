@@ -43,4 +43,10 @@ header > nav > ul > li:hover {
   right: 2em;
   position: fixed;
   display: none;
+  padding: 0.5em 0.7em;
+  border-radius: 50%;
+}
+.scroll_top_icon:hover {
+  background-color: lightgoldenrodyellow;
+  transition: all 0.4s ease-in-out;
 }
